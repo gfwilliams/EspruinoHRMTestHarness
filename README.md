@@ -35,5 +35,6 @@ Right now, no comparison is done between Bluetooth HRM and calculated readings t
 ## Graphs
 
 With `gnuplot` installed you can run `gnuplot -p gnuplot.plot` to plot graphs of acceleration vs step count/theshold data for debugging.
+The `plotfiles.sh` script will plot all available data as images into the `plots` folder.
 
 To compile, run and display the most recent graphs, you can do `pkill gnuplot;make clean;make && ./main && gnuplot -p gnuplot.plot`

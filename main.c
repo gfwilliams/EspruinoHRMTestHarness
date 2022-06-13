@@ -8,15 +8,19 @@
 
 #define PATH "data/"
 
-#define FILECOUNT 4
+#define FILECOUNT 8
 const char *FILES[FILECOUNT] = {
  "gw-bangle2.1-sitting.csv",
  "gw-bangle2.1-sitting-raised.csv",
  "gw-bangle2.1-typing.csv",
- "gw-bangle2.1-wander.csv"
+ "gw-bangle2.1-wander.csv",
+ "he-bangle2.1-tickrx2-sitting.csv",
+ "he-bangle2-tickrx2-sitting.csv",
+ "he-bangle2.1-tickrx2-moving.csv",
+ "he-bangle2-tickrx2-moving.csv"
 };
 
-int HOWMUCH[FILECOUNT] = {1,1,1,1}; // how much do we care about these?
+int HOWMUCH[FILECOUNT] = {1,1,1,1, 1,1,1,1}; // how much do we care about these?
 
 
 #define DEBUG 0
